@@ -1,0 +1,19 @@
+{
+  "name": "asturian-cinema",
+  "version": "1.0.0",
+  "description": "Plataforma web profesional para descubrir, compartir y disfrutar del cine hecho en Asturias y basado en la cultura regional.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed"
+  },
+  "keywords": ["angular", "spring-boot", "cinema", "asturias"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "playwright": "^1.58.2"
+  }
+}
